@@ -1,0 +1,35 @@
+{
+  "name": "@tammergard/eslint-config-base",
+  "version": "0.0.0-development",
+  "description": "A sharable ESLint config for JavaScript with personal preferences",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filiptammergard/eslint-plugin.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "styleguide"
+  ],
+  "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filiptammergard/eslint-plugin/issues"
+  },
+  "homepage": "https://github.com/filiptammergard/eslint-plugin#readme"
+}
