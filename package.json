@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filiptammergard/eslint-plugin.git"
+    "url": "git+https://github.com/filiptammergard/eslint-config-base.git"
   },
   "keywords": [
     "eslint",
@@ -29,7 +29,7 @@
   "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filiptammergard/eslint-plugin/issues"
+    "url": "https://github.com/filiptammergard/eslint-config-base/issues"
   },
-  "homepage": "https://github.com/filiptammergard/eslint-plugin#readme"
+  "homepage": "https://github.com/filiptammergard/eslint-config-base#readme"
 }
