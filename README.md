@@ -1,0 +1,1 @@
+# @tammergard/eslint-config-base
