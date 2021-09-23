@@ -41,7 +41,7 @@
     "eslint",
     "eslintconfig",
     "eslint-config",
-    "styleguide"
+    "style-guide"
   ],
   "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
   "license": "MIT",
