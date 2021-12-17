@@ -17,11 +17,11 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: npm install
+      - name: Review
+        run: yarn review
 
       - name: Run semantic-release
-        run: npx semantic-release
+        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

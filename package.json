@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier --write .",
-    "review": "npm ci && npm run lint && npm run prettier"
+    "review": "yarn install --frozen-lockfile && yarn lint && yarn prettier"
   },
   "devDependencies": {
     "@tammergard/prettier-config": "1.4.0",
