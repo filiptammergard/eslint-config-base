@@ -13,6 +13,10 @@ module.exports = {
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
   },
+  env: {
+    browser: true,
+    jest: true,
+  },
   settings: {
     jest: {
       version: 27, // this is set to avoid autodetecting trouble when jest isn't used
