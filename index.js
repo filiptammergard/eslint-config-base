@@ -12,6 +12,7 @@ module.exports = {
     ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
+    "no-use-before-define": "off",
   },
   env: {
     browser: true,
