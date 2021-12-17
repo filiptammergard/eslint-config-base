@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["eslint-plugin-prettier"],
   extends: [
     "eslint-config-airbnb-base",
     "plugin:eslint-plugin-prettier/recommended",
