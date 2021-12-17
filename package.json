@@ -39,9 +39,10 @@
   },
   "keywords": [
     "eslint",
-    "eslintconfig",
     "eslint-config",
-    "style-guide"
+    "config",
+    "style-guide",
+    "javascript"
   ],
   "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
   "license": "MIT",
