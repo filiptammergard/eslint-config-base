@@ -8,11 +8,13 @@ Install this ESLint config together with ESLint:
 
 ```bash
 # npm
-npm install @tammergard/eslint-config-base eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-prettier --save-dev
+npm install @tammergard/eslint-config-base eslint--save-dev
 
 # yarn
-yarn add @tammergard/eslint-config-base eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-prettier --dev
+yarn add @tammergard/eslint-config-base eslint--dev
 ```
+
+Then also install all peer dependencies.
 
 ## Usage
 
