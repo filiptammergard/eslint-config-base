@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     "eslint-config-airbnb-base",
     "plugin:eslint-plugin-prettier/recommended",
-    "plugin:jest/recommended",
   ],
   rules: {
     "import/extensions": [
@@ -16,11 +15,5 @@ module.exports = {
   },
   env: {
     browser: true,
-    jest: true,
-  },
-  settings: {
-    jest: {
-      version: 27, // this is set to avoid autodetecting trouble when jest isn't used
-    },
   },
 }

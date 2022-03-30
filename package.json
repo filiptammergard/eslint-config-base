@@ -3,29 +3,25 @@
   "version": "0.0.0-development",
   "description": "A sharable ESLint config for JavaScript with personal preferences",
   "scripts": {
-    "lint": "eslint .",
+    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
     "prettier": "prettier --write .",
-    "review": "yarn install --frozen-lockfile && yarn lint && yarn prettier"
+    "review": "yarn install --frozen-lockfile && yarn prettier && yarn git-verify-nodiff"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-prettier": "4.0.0"
   },
   "devDependencies": {
     "@tammergard/prettier-config": "1.5.0",
     "@tammergard/semantic-release-config-npm": "1.0.0",
     "eslint": "8.12.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-jest": "26.1.3",
-    "eslint-plugin-prettier": "4.0.0",
     "prettier": "2.6.1",
     "semantic-release": "19.0.2"
   },
   "peerDependencies": {
     "eslint": ">=7.32.0",
-    "eslint-config-airbnb-base": ">=14.2.1",
-    "eslint-config-prettier": ">=8.3.0",
-    "eslint-plugin-import": ">=2.24.2",
-    "eslint-plugin-jest": ">=25.3.0",
-    "eslint-plugin-prettier": ">=4.0.0",
     "prettier": ">=2.4.1"
   },
   "main": "index.js",
