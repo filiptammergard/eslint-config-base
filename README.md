@@ -8,10 +8,10 @@ Install this ESLint config together with ESLint:
 
 ```bash
 # npm
-npm install @tammergard/eslint-config-base eslint--save-dev
+npm install @tammergard/eslint-config-base eslint --save-dev
 
 # yarn
-yarn add @tammergard/eslint-config-base eslint--dev
+yarn add @tammergard/eslint-config-base eslint --dev
 ```
 
 Then also install all peer dependencies.
