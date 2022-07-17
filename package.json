@@ -3,9 +3,10 @@
   "version": "0.0.0-development",
   "description": "A sharable ESLint config for JavaScript with personal preferences",
   "scripts": {
-    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
-    "prettier": "prettier --write .",
-    "review": "yarn install --frozen-lockfile && yarn prettier && yarn git-verify-nodiff"
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "lint": "eslint .",
+    "review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "15.0.0",
