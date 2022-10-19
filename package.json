@@ -1,52 +1,52 @@
 {
-  "name": "@tammergard/eslint-config-base",
-  "version": "0.0.0-development",
-  "description": "A sharable ESLint config for JavaScript with personal preferences",
-  "scripts": {
-    "format": "prettier --write .",
-    "format-check": "prettier --check .",
-    "lint": "eslint .",
-    "review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
-  },
-  "dependencies": {
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-prettier": "4.2.1"
-  },
-  "devDependencies": {
-    "@tammergard/prettier-config": "1.5.0",
-    "@tammergard/semantic-release-config-npm": "1.1.0",
-    "eslint": "8.25.0",
-    "prettier": "2.7.1",
-    "semantic-release": "19.0.5"
-  },
-  "peerDependencies": {
-    "eslint": ">=7.32.0",
-    "prettier": ">=2.4.1"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/filiptammergard/eslint-config-base.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "config",
-    "style-guide",
-    "javascript"
-  ],
-  "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/filiptammergard/eslint-config-base/issues"
-  },
-  "homepage": "https://github.com/filiptammergard/eslint-config-base#readme"
+	"name": "@tammergard/eslint-config-base",
+	"version": "0.0.0-development",
+	"description": "A sharable ESLint config for JavaScript with personal preferences",
+	"scripts": {
+		"format": "prettier --write .",
+		"format-check": "prettier --check .",
+		"lint": "eslint .",
+		"review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
+	},
+	"dependencies": {
+		"eslint-config-airbnb-base": "15.0.0",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-plugin-import": "2.26.0",
+		"eslint-plugin-prettier": "4.2.1"
+	},
+	"devDependencies": {
+		"@tammergard/prettier-config": "2.0.0",
+		"@tammergard/semantic-release-config-npm": "1.1.0",
+		"eslint": "8.25.0",
+		"prettier": "2.7.1",
+		"semantic-release": "19.0.5"
+	},
+	"peerDependencies": {
+		"eslint": ">=7.32.0",
+		"prettier": ">=2.4.1"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiptammergard/eslint-config-base.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"config",
+		"style-guide",
+		"javascript"
+	],
+	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/filiptammergard/eslint-config-base/issues"
+	},
+	"homepage": "https://github.com/filiptammergard/eslint-config-base#readme"
 }

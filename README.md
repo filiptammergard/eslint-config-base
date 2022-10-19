@@ -22,7 +22,7 @@ Add the config to your `.eslintrc.js` file:
 
 ```js
 module.exports = {
-  extends: ["@tammergard/eslint-config-base"],
+	extends: ["@tammergard/eslint-config-base"],
 }
 ```
 
