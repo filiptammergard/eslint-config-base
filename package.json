@@ -17,7 +17,7 @@
 	"devDependencies": {
 		"@tammergard/prettier-config": "2.0.0",
 		"@tammergard/semantic-release-config-npm": "1.2.0",
-		"eslint": "8.33.0",
+		"eslint": "8.34.0",
 		"prettier": "2.8.4",
 		"semantic-release": "20.1.0"
 	},
