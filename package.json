@@ -1,11 +1,12 @@
 {
 	"name": "@tammergard/eslint-config-base",
-	"version": "0.0.0-development",
+	"version": "3.2.0",
 	"description": "A sharable ESLint config for JavaScript with personal preferences",
 	"scripts": {
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
 		"lint": "eslint .",
+		"release": "pnpm changeset publish",
 		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm lint"
 	},
 	"dependencies": {
