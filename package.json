@@ -15,11 +15,10 @@
 		"eslint-plugin-prettier": "4.2.1"
 	},
 	"devDependencies": {
+		"@changesets/cli": "2.26.1",
 		"@tammergard/prettier-config": "2.0.0",
-		"@tammergard/semantic-release-config-npm": "1.2.0",
 		"eslint": "8.37.0",
-		"prettier": "2.8.7",
-		"semantic-release": "21.0.0"
+		"prettier": "2.8.7"
 	},
 	"peerDependencies": {
 		"eslint": ">=7.32.0",
