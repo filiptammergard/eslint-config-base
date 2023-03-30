@@ -4,14 +4,17 @@ A sharable ESLint config for JavaScript with personal preferences.
 
 ## Installation
 
-Install this ESLint config together with ESLint:
+Install this ESLint config as a dev dependency:
 
 ```bash
 # npm
-npm install @tammergard/eslint-config-base eslint --save-dev
+npm install @tammergard/eslint-config-base --save-dev
 
 # yarn
-yarn add @tammergard/eslint-config-base eslint --dev
+yarn add @tammergard/eslint-config-base --dev
+
+# pnpm
+pnpm add @tammergard/eslint-config-base --save-dev
 ```
 
 Then also install all peer dependencies.
