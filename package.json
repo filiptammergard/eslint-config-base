@@ -6,7 +6,7 @@
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
 		"lint": "eslint .",
-		"review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
+		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm lint"
 	},
 	"dependencies": {
 		"eslint-config-airbnb-base": "15.0.0",
