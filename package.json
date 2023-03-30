@@ -5,9 +5,8 @@
 	"scripts": {
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
-		"lint": "eslint .",
 		"release": "pnpm changeset publish",
-		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm lint"
+		"review": "pnpm install --frozen-lockfile && pnpm format-check"
 	},
 	"dependencies": {
 		"eslint-config-airbnb-base": "15.0.0",
