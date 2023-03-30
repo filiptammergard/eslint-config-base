@@ -24,17 +24,10 @@
 		"eslint": ">=8.37.0",
 		"prettier": ">=2.8.7"
 	},
-	"main": "index.js",
 	"files": [
 		"index.js"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/filiptammergard/eslint-config-base.git"
-	},
+	"main": "index.js",
 	"keywords": [
 		"eslint",
 		"eslint-config",
@@ -42,10 +35,21 @@
 		"style-guide",
 		"javascript"
 	],
-	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
-	"license": "MIT",
+	"homepage": "https://github.com/filiptammergard/eslint-config-base#readme",
 	"bugs": {
 		"url": "https://github.com/filiptammergard/eslint-config-base/issues"
 	},
-	"homepage": "https://github.com/filiptammergard/eslint-config-base#readme"
+	"license": "MIT",
+	"author": {
+		"name": "Filip Tammergård",
+		"email": "filip+npm@tammergard.se",
+		"url": "https://tammergard.se"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiptammergard/eslint-config-base.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
