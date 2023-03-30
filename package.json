@@ -1,6 +1,6 @@
 {
 	"name": "@tammergard/eslint-config-base",
-	"version": "3.2.0",
+	"version": "4.0.0",
 	"description": "A sharable ESLint config for JavaScript with personal preferences",
 	"scripts": {
 		"format": "prettier --write .",
