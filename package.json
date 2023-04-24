@@ -49,6 +49,7 @@
 		"url": "git+https://github.com/filiptammergard/eslint-config-base.git"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+		"provenance": true
 	}
 }
