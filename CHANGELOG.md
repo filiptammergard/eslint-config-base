@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 4.0.2
+
+### Patch Changes
+
+- e76dea5: Support Prettier v3
+
 ## 4.0.1
 
 ### Patch Changes
