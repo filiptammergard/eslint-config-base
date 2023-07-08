@@ -26,8 +26,8 @@ devDependencies:
     specifier: 2.26.2
     version: 2.26.2
   '@tammergard/prettier-config':
-    specifier: 2.0.1
-    version: 2.0.1(prettier@3.0.0)
+    specifier: 2.0.2
+    version: 2.0.2(prettier@3.0.0)
   prettier:
     specifier: 3.0.0
     version: 3.0.0
@@ -353,10 +353,10 @@ packages:
       tslib: 2.6.0
     dev: false
 
-  /@tammergard/prettier-config@2.0.1(prettier@3.0.0):
-    resolution: {integrity: sha512-00aCh4bfuueHKGlkSnEwi7biIIDAV7bnLP6PlA/7HDPSTQfajLzn4wnvctVFRBKfjW40nLwCLs7PUSwuTuP+jw==}
+  /@tammergard/prettier-config@2.0.2(prettier@3.0.0):
+    resolution: {integrity: sha512-DzMXG5A3WX+r7CtTzUJaJCSYc8RcSEV5M6lBFa5xJWq2flPo8NL5hCMZFGo7HZLOEJACdRfGr5mVowQ7M4x8Lg==}
     peerDependencies:
-      prettier: ^2.6.0
+      prettier: '>=2.6.0'
     dependencies:
       prettier: 3.0.0
     dev: true
