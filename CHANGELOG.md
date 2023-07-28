@@ -1,5 +1,12 @@
 # @tammergard/eslint-config-base
 
+## 4.0.3
+
+### Patch Changes
+
+- fe00465: fix(deps): update dependency eslint-plugin-import to v2.28.0
+- f27c72b: fix(deps): update dependency eslint-config-prettier to v8.9.0
+
 ## 4.0.2
 
 ### Patch Changes
