@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 4.0.4
+
+### Patch Changes
+
+- 2c8acf4: Update dependency eslint-config-prettier to v9.
+
 ## 4.0.3
 
 ### Patch Changes
