@@ -15,7 +15,6 @@ module.exports = [
 				"never",
 				{ svg: "always", json: "always", png: "always" },
 			],
-
 			"import/no-unresolved": "off",
 			"import/prefer-default-export": "off",
 			"no-use-before-define": "off",
