@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.0.0
+
+### Major Changes
+
+- 0738016: Migrate to flat config format
+
 ## 4.0.4
 
 ### Patch Changes
