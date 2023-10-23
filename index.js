@@ -25,6 +25,7 @@ module.exports = [
 				{
 					devDependencies: [
 						"**/eslint.config.{js,mjs,cjs}", // eslint flat config
+						"**/.prettierrc.{js,mjs,cjs}", // prettier config
 					],
 				},
 			],
