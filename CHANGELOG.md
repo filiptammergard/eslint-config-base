@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.0.2
+
+### Patch Changes
+
+- 24b101b: Don't spread js config.
+
 ## 5.0.1
 
 ### Patch Changes
