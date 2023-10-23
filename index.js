@@ -20,15 +20,15 @@ module.exports = [
 			"import/no-unresolved": "off",
 			"import/prefer-default-export": "off",
 			"no-use-before-define": "off",
+			"import/no-extraneous-dependencies": [
+				"error",
+				{
+					devDependencies: [
+						"**/eslint.config.{js,mjs,cjs}", // eslint flat config
+					],
+				},
+			],
 		},
-		"import/no-extraneous-dependencies": [
-			"error",
-			{
-				devDependencies: [
-					"**/eslint.config.{js,mjs,cjs}", // eslint flat config
-				],
-			},
-		],
 	},
 	{
 		languageOptions: {
