@@ -7,7 +7,7 @@ const compat = new FlatCompat({
 })
 
 module.exports = [
-	...js.configs.recommended,
+	js.configs.recommended,
 	...compat.extends("eslint-config-airbnb-base"),
 	...compat.extends("plugin:eslint-plugin-prettier/recommended"),
 	{
