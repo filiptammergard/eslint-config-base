@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.0.4
+
+### Patch Changes
+
+- 6ef7d2e: Ignpre extraneous deps in prettier config.
+
 ## 5.0.3
 
 ### Patch Changes
