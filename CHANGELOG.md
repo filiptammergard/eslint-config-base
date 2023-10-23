@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.0.1
+
+### Patch Changes
+
+- 4b7e01e: Use exact same config as when doing eslintrc.
+
 ## 5.0.0
 
 ### Major Changes
