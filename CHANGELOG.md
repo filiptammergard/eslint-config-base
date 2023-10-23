@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.0.3
+
+### Patch Changes
+
+- 4fee78c: Put no-extraneous-dependencies rule inside rule object.
+
 ## 5.0.2
 
 ### Patch Changes
