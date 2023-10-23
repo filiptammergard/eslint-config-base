@@ -21,12 +21,12 @@ Then also install all peer dependencies.
 
 ## Usage
 
-Add the config to your `.eslintrc.js` file:
+Add the config to your `eslint.config.js` file:
 
 ```js
-module.exports = {
-	extends: ["@tammergard/eslint-config-base"],
-}
+const tammergardBaseConfig = require("@tammergard/eslint-config-base")
+
+module.exports = [...tammergardBaseConfig]
 ```
 
 ## License
