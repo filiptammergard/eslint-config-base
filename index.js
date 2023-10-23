@@ -1,11 +1,13 @@
 const { FlatCompat } = require("@eslint/eslintrc")
-const globals = require("global")
+const globals = require("globals")
+const js = require("@eslint/js")
 
 const compat = new FlatCompat({
 	baseDirectory: __dirname,
 })
 
 module.exports = [
+	...js.configs.recommended,
 	...compat.extends("eslint-config-airbnb-base"),
 	...compat.extends("plugin:eslint-plugin-prettier/recommended"),
 	{
@@ -19,6 +21,14 @@ module.exports = [
 			"import/prefer-default-export": "off",
 			"no-use-before-define": "off",
 		},
+		"import/no-extraneous-dependencies": [
+			"error",
+			{
+				devDependencies: [
+					"**/eslint.config.{js,mjs,cjs}", // eslint flat config
+				],
+			},
+		],
 	},
 	{
 		languageOptions: {
