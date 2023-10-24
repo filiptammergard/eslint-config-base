@@ -24,6 +24,7 @@ module.exports = [
 				"error",
 				{
 					devDependencies: [
+						"**/*.test.{ts,tsx}", // test files
 						"**/eslint.config.{js,mjs,cjs}", // eslint flat config
 						"**/.prettierrc.{js,mjs,cjs}", // prettier config
 					],
