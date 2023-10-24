@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.0.5
+
+### Patch Changes
+
+- 4609dc0: Allow inline config.
+
 ## 5.0.4
 
 ### Patch Changes
