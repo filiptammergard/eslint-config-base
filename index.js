@@ -38,7 +38,6 @@ module.exports = [
 			},
 		},
 		linterOptions: {
-			noInlineConfig: true,
 			reportUnusedDisableDirectives: true,
 		},
 	},
