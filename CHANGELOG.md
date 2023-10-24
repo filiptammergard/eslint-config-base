@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.0.6
+
+### Patch Changes
+
+- 73872cf: Add test file to ignore.
+
 ## 5.0.5
 
 ### Patch Changes
