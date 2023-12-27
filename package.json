@@ -9,7 +9,7 @@
 		"review": "pnpm install --frozen-lockfile && pnpm format-check"
 	},
 	"dependencies": {
-		"@eslint/eslintrc": "2.1.4",
+		"@eslint/eslintrc": "3.0.0",
 		"@eslint/js": "8.56.0",
 		"eslint-config-airbnb-base": "15.0.0",
 		"eslint-config-prettier": "9.1.0",
