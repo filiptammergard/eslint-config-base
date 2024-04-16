@@ -1,5 +1,11 @@
 # @tammergard/eslint-config-base
 
+## 5.1.0
+
+### Minor Changes
+
+- b726324: Simplify a lot.
+
 ## 5.0.6
 
 ### Patch Changes
