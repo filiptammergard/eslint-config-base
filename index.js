@@ -11,7 +11,7 @@ export default [
 			"no-use-before-define": "off",
 		},
 		linterOptions: {
-			reportUnusedDisableDirectives: true,
+			reportUnusedDisableDirectives: "error",
 		},
 	},
 ]

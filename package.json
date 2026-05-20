@@ -18,6 +18,7 @@
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
 		"test": "node --test",
+		"prepublishOnly": "pnpm test",
 		"release": "pnpm changeset publish",
 		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm test"
 	},
@@ -40,6 +41,8 @@
 	"keywords": [
 		"eslint",
 		"eslint-config",
+		"eslint10",
+		"flat-config",
 		"config",
 		"style-guide",
 		"javascript"
