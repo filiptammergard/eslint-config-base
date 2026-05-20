@@ -1,18 +1,14 @@
-const globals = require("globals")
-const js = require("@eslint/js")
+import js from "@eslint/js"
 
-module.exports = [
-	js.configs.recommended,
+export default [
 	{
-		rules: {
-			"no-use-before-define": "off",
-		},
+		...js.configs.recommended,
+		name: "tammergard/base/eslint-recommended",
 	},
 	{
-		languageOptions: {
-			globals: {
-				...globals.browser,
-			},
+		name: "tammergard/base/rules",
+		rules: {
+			"no-use-before-define": "off",
 		},
 		linterOptions: {
 			reportUnusedDisableDirectives: true,

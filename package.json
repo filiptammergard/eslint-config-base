@@ -2,29 +2,41 @@
 	"name": "@tammergard/eslint-config-base",
 	"version": "5.1.0",
 	"description": "A sharable ESLint config for JavaScript with personal preferences",
+	"type": "module",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"default": "./index.js"
+		}
+	},
+	"engines": {
+		"node": ">=24"
+	},
 	"scripts": {
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
+		"test": "node --test",
 		"release": "pnpm changeset publish",
-		"review": "pnpm install --frozen-lockfile && pnpm format-check"
+		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm test"
 	},
 	"dependencies": {
-		"@eslint/js": "9.0.0",
-		"globals": "15.0.0"
+		"@eslint/js": "^10.0.1"
 	},
 	"devDependencies": {
-		"@changesets/cli": "2.27.1",
-		"@tammergard/prettier-config": "2.1.0",
-		"prettier": "3.2.5"
+		"@changesets/cli": "^2.31.0",
+		"@tammergard/prettier-config": "^3.0.0",
+		"eslint": "^10.4.0",
+		"prettier": "^3.8.3"
 	},
 	"peerDependencies": {
-		"eslint": ">=8.52.0",
-		"prettier": ">=3.0.3"
+		"eslint": ">=10.0.0"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
-	"main": "index.js",
 	"keywords": [
 		"eslint",
 		"eslint-config",
