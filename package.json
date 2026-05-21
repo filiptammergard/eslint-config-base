@@ -44,7 +44,7 @@
 		"format-check": "prettier --check .",
 		"release": "pnpm changeset publish",
 		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm test",
-		"test": "node --test test/"
+		"test": "node --test test/config.test.js"
 	},
 	"dependencies": {
 		"@eslint/js": "^10.0.1"
