@@ -1,10 +1,9 @@
 # @tammergard/eslint-config-base
 
-A sharable ESLint config for JavaScript with personal preferences.
+A sharable ESLint config for JavaScript with personal preferences. Ships as a
+flat config for ESLint 10.
 
 ## Installation
-
-Install this ESLint config and its peer dependency:
 
 ```bash
 # npm
@@ -13,11 +12,9 @@ npm install --save-dev @tammergard/eslint-config-base eslint
 # pnpm
 pnpm add -D @tammergard/eslint-config-base eslint
 
-# yarn
-yarn add -D @tammergard/eslint-config-base eslint
+# bun
+bun add -d @tammergard/eslint-config-base eslint
 ```
-
-Requires ESLint 10 (flat config) and Node.js 24+.
 
 ## Usage
 

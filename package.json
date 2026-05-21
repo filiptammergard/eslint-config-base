@@ -2,43 +2,6 @@
 	"name": "@tammergard/eslint-config-base",
 	"version": "6.0.0",
 	"description": "A sharable ESLint config for JavaScript with personal preferences",
-	"type": "module",
-	"main": "index.js",
-	"types": "index.d.ts",
-	"exports": {
-		".": {
-			"types": "./index.d.ts",
-			"default": "./index.js"
-		}
-	},
-	"engines": {
-		"node": ">=24"
-	},
-	"packageManager": "pnpm@10.33.2",
-	"scripts": {
-		"format": "prettier --write .",
-		"format-check": "prettier --check .",
-		"test": "node --test",
-		"prepublishOnly": "pnpm test",
-		"release": "pnpm changeset publish",
-		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm test"
-	},
-	"dependencies": {
-		"@eslint/js": "^10.0.1"
-	},
-	"devDependencies": {
-		"@changesets/cli": "^2.31.0",
-		"@tammergard/prettier-config": "^3.0.0",
-		"eslint": "^10.4.0",
-		"prettier": "^3.8.3"
-	},
-	"peerDependencies": {
-		"eslint": ">=10.0.0"
-	},
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
 	"keywords": [
 		"eslint",
 		"eslint-config",
@@ -52,15 +15,52 @@
 	"bugs": {
 		"url": "https://github.com/filiptammergard/eslint-config-base/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiptammergard/eslint-config-base.git"
+	},
 	"license": "MIT",
 	"author": {
 		"name": "Filip Tammergård",
 		"email": "filip+npm@tammergard.se",
 		"url": "https://tammergard.se"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/filiptammergard/eslint-config-base.git"
+	"sideEffects": false,
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"default": "./index.js"
+		}
+	},
+	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"scripts": {
+		"format": "prettier --write .",
+		"format-check": "prettier --check .",
+		"release": "pnpm changeset publish",
+		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm test",
+		"test": "node --test test/"
+	},
+	"dependencies": {
+		"@eslint/js": "^10.0.1"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.31.0",
+		"@tammergard/prettier-config": "^3.0.0",
+		"eslint": "^10.4.0",
+		"prettier": "^3.8.3"
+	},
+	"peerDependencies": {
+		"eslint": ">=10.0.0"
+	},
+	"packageManager": "pnpm@10.33.2",
+	"engines": {
+		"node": ">=24"
 	},
 	"publishConfig": {
 		"access": "public",
