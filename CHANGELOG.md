@@ -1,5 +1,12 @@
 # @tammergard/eslint-config-base
 
+## 6.1.0
+
+### Minor Changes
+
+- eb5c7e9: Ignore `dist/` by default. Consumers that build to `dist/` no longer need to
+  add their own `{ ignores: ["dist"] }` block.
+
 ## 6.0.0
 
 ### Major Changes
