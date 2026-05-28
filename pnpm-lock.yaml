@@ -17,7 +17,7 @@ importers:
         version: 2.31.0
       '@tammergard/prettier-config':
         specifier: ^3.0.0
-        version: 3.0.0(prettier@3.8.3)
+        version: 3.0.1(prettier@3.8.3)
       eslint:
         specifier: ^10.4.0
         version: 10.4.0
@@ -172,8 +172,9 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@tammergard/prettier-config@3.0.0':
-    resolution: {integrity: sha512-UEkgHSambDW4MozqZ3Uq7nfWtuvR3R2rLA1lV/eoRvuo6rhkKZDJsxyfDSl13+j8CV2ydqNts7WE9FI1EN9DNA==}
+  '@tammergard/prettier-config@3.0.1':
+    resolution: {integrity: sha512-NmVgPQJgZE3Zf4GQ/fPKAi3jCEET10MMKfKBasRfnT/V4bxlu2kHzh8oFwP/7M/0d1udWfKFyRWs3kq9jUZcfw==}
+    engines: {node: '>=24'}
     peerDependencies:
       prettier: '>=3.0.0'
 
@@ -882,7 +883,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.20.1
 
-  '@tammergard/prettier-config@3.0.0(prettier@3.8.3)':
+  '@tammergard/prettier-config@3.0.1(prettier@3.8.3)':
     dependencies:
       prettier: 3.8.3
 
